@@ -1,6 +1,7 @@
 # Mercenary-Template-iOS
+- Template Version 1.00
 - ImGui Menu Template specifically designed for iOS using THEOS
-- Version 1.00
+
 
 Features:
 - Easily customizable ImGui Menu
