@@ -1,5 +1,6 @@
 # Mercenary-Template-iOS
 - ImGui Menu Template specifically designed for iOS using THEOS
+- Version 1.00
 
 Features:
 - Easily customizable ImGui Menu
@@ -8,6 +9,6 @@ Features:
 
 # THEOS Installation
 - Documentation https://theos.dev/docs
-- Linux/Windows: https://theos.dev/docs/installation-linux
-- iOS: https://theos.dev/docs/installation-ios
-- MacOS: https://theos.dev/docs/installation-macos
+- Install Windows: https://theos.dev/docs/installation-linux
+- Install iOS: https://theos.dev/docs/installation-ios
+- Install MacOS: https://theos.dev/docs/installation-macos
