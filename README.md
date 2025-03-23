@@ -9,6 +9,9 @@ Features:
 - Easily customizable Floating Icon
 - Interactive Multi Touch Menu using https://developer.apple.com/documentation/uikit/uiview/point(inside:with:)?language=objc
 
+TODO:
+- Implement "Streamer Mode" to hide your Menu and Icon from recordings
+
 # THEOS
 
 Information:
