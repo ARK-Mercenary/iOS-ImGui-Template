@@ -15,16 +15,13 @@
 CGPoint location = CGPointMake(0, 0);
 bool toggle = false;
 
-// UITapGestureRecognizer* tapTouches = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(ButtonTapped)];
-// tapTouches.numberOfTapsRequired = 2;
-// tapTouches.numberOfTouchesRequired = 3;
-
-// [self addGestureRecognizer:tapTouches];
-
 - (instancetype)initWithSizeAndLocation:(CGRect)size {
     self = [super initWithFrame:size];
     if (self) 
     {
+        // TODO:
+        //* Add your own icon URL here
+
         static NSString* imageURL = @"https://drive.google.com/thumbnail?id=1FnG--or2g-yjbA8OfXAVD3NlxS8vr1wU";
         
         NSData* imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]];
