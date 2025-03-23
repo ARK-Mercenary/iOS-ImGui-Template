@@ -2,7 +2,7 @@
 
 Information:
 - Template Version 1.00
-- ImGui Menu Template specifically designed for Jailed iOS devices using **THEOS**
+- ImGui Menu Template specifically designed for Non-Jailbroken iOS devices using **THEOS**
 
 Features:
 - Easily customizable ImGui Menu
