@@ -15,6 +15,6 @@ Information:
 - Documentation https://theos.dev/docs
 
 Install:
-- Install Windows: https://theos.dev/docs/installation-linux
-- Install iOS: https://theos.dev/docs/installation-ios
-- Install MacOS: https://theos.dev/docs/installation-macos
+- Windows: https://theos.dev/docs/installation-linux
+- MacOS: https://theos.dev/docs/installation-macos
+- iOS: https://theos.dev/docs/installation-ios
