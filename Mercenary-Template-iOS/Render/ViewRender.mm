@@ -147,6 +147,7 @@ static bool bIsMoveMenu = false;
 {
     UIWindow* window = [UIApplication sharedApplication].keyWindow;
 
+    //* Customize Size, and Location here
     s_FloatingButton = [[FloatingButton alloc] initWithSizeAndLocation:CGRectMake(30, 30, 60, 60)];
         
     [window addSubview:self.view];
