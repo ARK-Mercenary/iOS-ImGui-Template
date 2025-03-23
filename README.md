@@ -2,7 +2,7 @@
 
 Information:
 - Template Version 1.00
-- ImGui Menu Template specifically designed for iOS using THEOS
+- ImGui Menu Template specifically designed for iOS using **THEOS**
 
 Features:
 - Easily customizable ImGui Menu
