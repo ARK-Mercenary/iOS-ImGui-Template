@@ -1,23 +1,16 @@
-# Mercenary-Template-iOS
+# Mercenary-Template
 
-Information:
-- Template Version 1.00
-- ImGui Menu Template specifically designed for Non-Jailbroken iOS devices using **THEOS**
+## Overview:
+- Version: 1.00
+- Description: Internal ImGui Template for Jailed iOS devices. Utilizes **THEOS**
+- THEOS: https://theos.dev/docs
 
-Features:
-- Easily customizable ImGui Menu
+## Features:
+- Fully customizable ImGui Menu
 - Easily customizable Floating Icon
-- Interactive Multi Touch Menu using https://developer.apple.com/documentation/uikit/uiview/point(inside:with:)?language=objc
+- Interactive Multi Touch Menu, utilizing Apple's [UIView point(inside:with:)](https://developer.apple.com/documentation/uikit/uiview/point(inside:with:)?language=objc)
 
-TODO:
-- Implement "Streamer Mode" to hide your Menu and Icon from recordings
+## Changelog
 
-# THEOS
-
-Information:
-- Documentation https://theos.dev/docs
-
-Install:
-- Windows: https://theos.dev/docs/installation-linux
-- MacOS: https://theos.dev/docs/installation-macos
-- iOS: https://theos.dev/docs/installation-ios
+### Version 1.00 (03/20/25):
+- Initial release of Mercenary Template.
