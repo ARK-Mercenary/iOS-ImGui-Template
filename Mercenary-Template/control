@@ -3,6 +3,6 @@ Name: Mercenary Template
 Depends: mobilesubstrate
 Version: 1
 Architecture: iphoneos-arm
-Description: nternal ImGui Template for Jailed iOS devices
+Description: Internal ImGui Template for Jailed iOS devices
 Maintainer: Li
 Author: Li
