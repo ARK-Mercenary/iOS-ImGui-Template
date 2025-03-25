@@ -5,7 +5,7 @@
 - Internal ImGui Template for Jailed iOS devices. Utilizes **THEOS**
 - [Theos Installation](https://theos.dev/docs/installation)
 
-#### Releases & Changelogs
+### Releases & Changelogs
 - See [Releases](https://github.com/ARK-Mercenary/ImGui-Template/releases) page for decorated Changelogs
 
 ## Features:
