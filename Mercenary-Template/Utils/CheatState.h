@@ -36,7 +36,7 @@ namespace ConfigManager
     void SaveConfig()
     {
         std::string documentsDirectory = getenv("HOME") + std::string("/Documents");
-        std::string filePath = documentsDirectory + "/"ConfigName"."ConfigPrefix;
+        std::string filePath = documentsDirectory + "/" + ConfigName + ConfigPrefix;
 
         std::ofstream file(filePath, std::ios::binary);
 
@@ -50,7 +50,7 @@ namespace ConfigManager
     void LoadConfig()
     {
         std::string documentsDirectory = getenv("HOME") + std::string("/Documents");
-        std::string filePath = documentsDirectory + "/"ConfigName"."ConfigPrefix;
+        std::string filePath = documentsDirectory + "/" + ConfigName + ConfigPrefix;
 
         std::ifstream file(filePath, std::ios::binary);
 
