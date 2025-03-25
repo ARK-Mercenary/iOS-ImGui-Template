@@ -1,8 +1,8 @@
 Package: com.mercenary.template
-Name: Mercenary
+Name: Mercenary Template
 Depends: mobilesubstrate
 Version: 1
 Architecture: iphoneos-arm
-Description: Simple ImGui Menu Template
-Maintainer: Mercenary Developer Team
-Author: Mercenary Developer Team
+Description: nternal ImGui Template for Jailed iOS devices
+Maintainer: Li
+Author: Li
