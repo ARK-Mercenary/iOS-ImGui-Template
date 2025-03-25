@@ -31,7 +31,7 @@ namespace Mercenary
 namespace ConfigManager
 {
     #define ConfigName "UserConfig"
-    #define ConfigPrefix "cfg"
+    #define ConfigPrefix ".cfg"
 
     void SaveConfig()
     {
