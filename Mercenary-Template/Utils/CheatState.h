@@ -31,12 +31,12 @@ namespace Mercenary
 namespace ConfigManager
 {
     #define ConfigName "UserConfig"
-    #define ConfigPrefix ".cfg"
+    #define ConfigExtension ".cfg"
 
     void SaveConfig()
     {
         std::string documentsDirectory = getenv("HOME") + std::string("/Documents");
-        std::string filePath = documentsDirectory + "/" + ConfigName + ConfigPrefix;
+        std::string filePath = documentsDirectory + "/" + ConfigName + ConfigExtension;
 
         std::ofstream file(filePath, std::ios::binary);
 
@@ -50,7 +50,7 @@ namespace ConfigManager
     void LoadConfig()
     {
         std::string documentsDirectory = getenv("HOME") + std::string("/Documents");
-        std::string filePath = documentsDirectory + "/" + ConfigName + ConfigPrefix;
+        std::string filePath = documentsDirectory + "/" + ConfigName + ConfigExtension;
 
         std::ifstream file(filePath, std::ios::binary);
 
