@@ -11,6 +11,9 @@
 #include <string>
 #include <cstdint>
 
+#define ConfigName "UserConfig"
+#define ConfigExtension ".cfg"
+
 namespace Mercenary
 {
     struct CheatState
@@ -30,9 +33,6 @@ namespace Mercenary
 
 namespace ConfigManager
 {
-    #define ConfigName "UserConfig"
-    #define ConfigExtension ".cfg"
-
     void SaveConfig()
     {
         std::string documentsDirectory = getenv("HOME") + std::string("/Documents");
