@@ -2,7 +2,7 @@
 
 ## Overview:
 - Version: 1.01
-- Internal ImGui Template for Jailed iOS devices. Utilizes **THEOS**
+- Internal ImGui Template for Jailed iOS Devices Utilizing **THEOS**
 - [Theos Installation](https://theos.dev/docs/installation)
 
 ### Releases & Changelogs
