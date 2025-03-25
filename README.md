@@ -1,7 +1,6 @@
 # Mercenary-Template
 
 ## Overview:
-- Version: 1.01
 - Internal ImGui Template for Jailed iOS Devices Utilizing **THEOS**
 - [Theos Installation](https://theos.dev/docs/installation)
 
