@@ -1,6 +1,7 @@
 # Mercenary-Template
 
 ## Overview:
+- Credits to my bbg [Ball](https://github.com/ballinup2) for helping me with some things
 - Internal ImGui Template for Jailed iOS Devices Utilizing **THEOS**
 - [Theos Installation](https://theos.dev/docs/installation)
 
