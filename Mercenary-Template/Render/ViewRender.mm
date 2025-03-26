@@ -22,8 +22,9 @@
 #import "MetalView.h"
 #import "FloatingButton.h"
 
+static NSString* s_ConfigName = @"UserConfig.cfg";
 static FloatingButton* s_FloatingButton = nil;
-static Mercenary::CheatState& state = Mercenary::GetState();
+static Mercenary::CheatState& s_CheatState = Mercenary::GetState();
 
 @interface ViewRender () <MTKViewDelegate>
 
@@ -57,7 +58,7 @@ static Mercenary::CheatState& state = Mercenary::GetState();
 
     io.Fonts->AddFontFromFileTTF("/System/Library/Fonts/LanguageSupport/PingFang.ttc", 14.f, &config, io.Fonts->GetGlyphRangesChineseFull());
 
-    ConfigManager::GetInstance().LoadState(@"UserSettings.cfg");
+    ConfigManager::GetInstance().LoadState(s_ConfigName);
 
     ImGui_ImplMetal_Init(_device);
     return self;
@@ -108,7 +109,7 @@ static Mercenary::CheatState& state = Mercenary::GetState();
 
     if (on)
     {
-        ConfigManager::GetInstance().SaveState(@"UserSettings.cfg");
+        ConfigManager::GetInstance().SaveState(s_ConfigName);
 
         ImVec2 WindowSize = ImVec2(384, 256);
         ImGui::SetNextWindowSize(WindowSize, ImGuiCond_Once);
@@ -118,7 +119,7 @@ static Mercenary::CheatState& state = Mercenary::GetState();
 
         ImGui::Begin("Mercenary Template", nullptr, WindowFlags);
 
-        ImGui::Checkbox("Move Menu", &state.IsMoveMenu);
+        ImGui::Checkbox("Move Menu", &s_CheatState.IsMoveMenu);
         
         ImGui::End();
     }
