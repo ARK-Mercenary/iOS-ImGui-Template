@@ -1,8 +1,0 @@
-Package: com.mercenary.template
-Name: Mercenary Template
-Depends: mobilesubstrate
-Version: 1
-Architecture: iphoneos-arm
-Description: Internal ImGui Template for Jailed iOS devices
-Maintainer: Li
-Author: Li
